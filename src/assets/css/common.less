@@ -1,0 +1,122 @@
+@import "variables.less";
+form,button{
+  margin:0;
+  padding:0;
+}
+.f12{
+  font-size: 12px;
+}
+.f14{
+  font-size: 14px;
+}
+
+.f16{
+  font-size: 16px;
+}
+
+.f18{
+  font-size: 18px;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.t-c{
+  text-align: center;
+}
+.pr10{
+  padding-right: 10px;
+}
+
+.primary{
+  color: @themeColor;
+}
+.error{
+  color: #f5222d;
+}
+.ant-layout-sider{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+#app{
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  //-webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+}
+
+#components-layout-demo .logo{
+    margin: 16px;
+    text-align: center;
+}
+
+//.logo{
+//  z-index: 1;
+//  position: absolute;
+//  width: 88px;
+//  /*height: 32px;*/
+//  text-align: center;
+//  top: 20px;
+//  left: 16px;
+//}
+
+.ant-layout-header{
+  //position: relative;
+  padding: 0 22px;
+  //width: 100%;
+  //float: right;
+  background-color: #fff;
+  .ant-button{
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+  }
+}
+.ant-layout-content{
+  background-color: #fff;
+  padding: 20px;
+
+}
+.searchForm{
+  background-color: #f0f2f5;
+  padding: 20px;
+  .ant-form-item{
+    margin: 15px 5px;
+    .ant-btn{
+      margin-right: 15px;
+    }
+  }
+}
+
+.ant-search-result-list{
+  background-color: #f0f2f5;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.ant-form label,
+.ant-form-item{
+  font-size: 13px;
+}
+
+.v-enter{
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.v-level-to{
+  opacity: 0;
+  transform: translateX(-100%);
+  position: absolute;
+}
+
+.v-enter-active,.v-enter-leave{
+  transition: all 0.4s ease;
+}
