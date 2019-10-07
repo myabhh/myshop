@@ -74,6 +74,9 @@ import router from './router/router.js'
 import VueResource from '../node_modules/vue-resource/dist/vue-resource'
 Vue.use(VueResource);
 
+
+
+
 //设置请求的根路径
 // Vue.http.options.root = 'http://www.escook.cn:3000';
 
