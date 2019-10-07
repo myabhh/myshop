@@ -200,7 +200,7 @@
           </div>
         </template>
         <template slot="goodsName" slot-scope="text,record">
-<!--这是新加的一行-->
+
         </template>
         <template slot="salePrice" slot-scope="text,record">
 
