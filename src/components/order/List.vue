@@ -200,7 +200,7 @@
           </div>
         </template>
         <template slot="goodsName" slot-scope="text,record">
-
+lalalalllllllll
         </template>
         <template slot="salePrice" slot-scope="text,record">
 
